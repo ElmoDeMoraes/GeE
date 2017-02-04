@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources xmlns="http://www.jboss.org/ironjacamar/schema">
+    <datasource 
+        jndi-name="GeEDatasource"
+        enabled="true" 
+        use-java-context="true" pool-name="GeEDatasource_pool">
+        <connection-url>jdbc:postgresql://localhost:5432/gee</connection-url>
+        <driver>postgresql9411200.jar</driver>
+        <security>
+		      <user-name>postgres</user-name>
+		      <password>pg123456</password>
+        </security>
+    </datasource>
+</datasources>

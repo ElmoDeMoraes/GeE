@@ -1,0 +1,16 @@
+action.package=org.domain.gee.session
+action.sources=/GeE-ejb/ejbModule
+eclipse.preferences.version=1
+model.package=org.domain.gee.entity
+model.sources=/GeE-ejb/ejbModule
+seam.ear.project=GeE-ear
+seam.ejb.project=GeE-ejb
+seam.project.connection.profile=PostgreSQL - GeE
+seam.project.deployment.type=ear
+seam.project.settings.version=1.1
+seam.project.web.root.folder=/GeE/WebContent
+seam.runtime.name=jboss-seam
+seam.test.creating=false
+seam.test.project=GeE-test
+test.package=org.domain.gee.test
+test.sources=/GeE-test/test-src
